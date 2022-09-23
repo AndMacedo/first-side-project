@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header{
+    width: 98%;
+    height:70px;
+    margin: 10px;
+}
+nav{
+    background-color:beige;
+    margin-bottom: 0;
+    float: right;
+    width: 100%;
+}
+.links{
+    float: right;
+    font-size: 96%;
+    min-width: 77%;
+    margin-right: 0cm;
+    padding:5% 10px 5% 0;
+}
+nav ul{
+list-style-type: none;
+margin: 0;
+float: right;
+display:inline;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+.logo{
+ max-width: 20%;
+ float: left;
+}
+.button{
+text-decoration: none;
+font-size: 90%;
+color: black;
+text-align: center;
+margin-right: 0.2px;
+background-color: rgb(205, 252, 255);;
+}
+.hero{
+    background-image: url("assets/kingdom.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 228px;
+    width: 95%;
+    align-items: center;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+ }
+h1{
+    text-align: center;
+    font-size: 150%;
+    padding: 5%;
+}
+.about{
+    margin: 15px;
+}
+.about h2{
+    font-size:120% ;
+    margin-bottom: 3px;
+}
+.about p{
+    font-size: 95%;
+    margin-top: 7px;
+}
+#Royalfam{
+    margin: 15px;
+
+}
+.flexcontainer{
+margin-top: 20px;
+display: flex;
+}
+.flexcontainer img{
+    width: 90%;
+    height: 80%;
+    padding: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flexcontainer p{
+    font-size: 85%;
+    text-align: center;
+}
+table{
+    border: 1px solid;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+th{
+   border: 3px solid;
+   font-size: 130%;
+}
+td{
+    border:2px solid;
+    text-align: center;
+    font-size: 110%;
+}
+tbody tr:nth-child(odd) {
+    background-color: #d5d5d5;
+}
+#assets{
+    margin: 0 12px;
+}
+thead th{
+background-color: beige;
+}
+#contact{
+    margin: 12px;
+}
+#contact h2{
+    margin: 6px;    
+}
+.boxes{
+    border-style:inset;
+    border-color: black;
+    width: 100%;
+padding: 2px;
+border: 1px solid;
+}
+textarea{
+    margin: 6px;
+}
+form{
+    margin-right: 12px;
+}
+form input{
+    margin:6px;
+}
+form label{
+    margin: 6px;
+}
+.submit-button{
+    float: right;
+    margin: 2px;
+    padding: 1px;
+    border:1px solid;
+}
+#message{
+    height:170px;
+}
+footer{
+    width: 95%;
+    min-height: 50px;
+    max-height: 80px ;
+    background-color: beige;
+    margin: 9px 2.5% 7px 2.5%;
+    position:fixed;
+    position: absolute;
+    bottom: 0;
+}
+.footerlogo{
+    width: 15%;
+    float: right;
+    margin: 3px;
+    bottom: 0;
+}
+@media screen and (min-width: 500px) {
+    .button{
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    .logo{
+        width:13%;
+    }
+}
+@media screen and (min-width: 700px) {
+    .footerlogo{
+        width: 100px;
+    }
+    .about h2{
+        font-size: 20px;
+    }
+    .about p{
+        font-size: 16px;
+    }
+
+}
+@media screen and (min-width: 900px) {
+    .button{
+        font-size: 30px;
+        margin-right: 10px;
+    } 
+    .logo{
+        width: 15%;
+    } 
+    .flexcontainer img{
+        width: 70%;
+    }
+    .about h2{
+        font-size: 23px;
+    }
+    .about p{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1100px){
+    .flexcontainer img{
+        width: 50%;
+    } 
+    .about{
+        margin-left: 32px;
+    }
+    .about h2{
+        font-size: 25px;
+    }
+    .about p{
+        font-size: 21px;
+    }
+}
